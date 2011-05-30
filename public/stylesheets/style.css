@@ -50,6 +50,29 @@ ul#top-nav li a:hover {
   padding-bottom: 2px;
   border-bottom: 2px solid #fff;
 }
+input {
+  height: 30px;
+  width: 150px;
+  float: right;
+  margin-right: 5px;
+}
+#btn {
+  margin-left: 1%;
+  padding: 0px 5px;
+  border: solid 1px #73953c;
+  border-width: 1px 0;
+  background: #eee;
+  color: #fff;
+  font-size: 1.2em;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.45, #73953c), color-stop(0.94, #98c44e));
+  background-image: -moz-linear-gradient(center bottom, #73953c 45%, #98c44e 94%);
+  -moz-box-shadow: 1px 2px 5px #888;
+  -webkit-box-shadow: 1px 2px 5px #888;
+  box-shadow: 1px 2px 5px #888;
+}
 #lh-col {
   position: absolute;
   top: 50px;

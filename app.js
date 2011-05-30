@@ -46,12 +46,17 @@ var reg_form = forms.create({
     email: fields.email()
 });
 
+var login_form = forms.create({
+    email: fields.email({required: true}),
+    password: fields.password({required: true})
+    });
+
 // Routes
 
 app.get('/test', function (req, res) {
   res.render('form', {
   	title: 'Welcome Test!!' +sitename,
-  	form: reg_form.toHTML()
+  	login: login_form.toHTML()
   });
 //  res.writeHead(200, {'Content-Type': 'text/plain'});
 //  res.end(reg_form.toHTML());
@@ -61,7 +66,9 @@ app.get('/test', function (req, res) {
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Express'  +sitename
+    title: 'Express'  +sitename,
+    login: reg_form.toHTML()
+    
   });
 });
 

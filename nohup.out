@@ -8,3 +8,216 @@ Express server listening on port 80
 30 May 17:31:50 - [nodemon] running app.js
 30 May 17:31:50 - [32m[nodemon] starting node[0m
 Express server listening on port 80
+30 May 17:53:50 - [nodemon] restarting due to changes...
+30 May 17:53:50 - [nodemon] ./app.js
+
+
+30 May 17:53:50 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:53:51 - [nodemon] restarting due to changes...
+30 May 17:53:51 - [nodemon] ./app.js
+
+
+30 May 17:53:51 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:58:09 - [nodemon] restarting due to changes...
+30 May 17:58:09 - [nodemon] ./app.js
+
+
+30 May 17:58:09 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:58:34 - [nodemon] restarting due to changes...
+30 May 17:58:34 - [nodemon] ./app.js
+
+
+30 May 17:58:34 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:58:46 - [nodemon] restarting due to changes...
+30 May 17:58:46 - [nodemon] ./app.js
+
+
+30 May 17:58:46 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:59:09 - [nodemon] restarting due to changes...
+30 May 17:59:09 - [nodemon] ./app.js
+
+
+30 May 17:59:09 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:59:25 - [nodemon] restarting due to changes...
+30 May 17:59:25 - [nodemon] ./app.js
+
+
+30 May 17:59:25 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 17:59:27 - [nodemon] restarting due to changes...
+30 May 17:59:27 - [nodemon] ./app.js
+
+
+30 May 17:59:27 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 18:00:08 - [nodemon] restarting due to changes...
+30 May 18:00:08 - [nodemon] ./app.js
+
+
+30 May 18:00:08 - [32m[nodemon] starting node[0m
+30 May 18:00:08 - [1;31m[nodemon] app crashed - waiting for file change before starting...[0m
+30 May 18:00:09 - [nodemon] restarting due to changes...
+30 May 18:00:09 - [nodemon] ./app.js
+
+
+30 May 18:00:09 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+Error: /root/node/whistle/views/form.jade:36
+    34| //          | Login or Register to personalise!
+    35| 
+  > 36|     // end of left column
+    37|     // right column
+    38|     div#rh-col
+    39|       div.lh-block
+
+unexpected token "indent"
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:185:15)
+    at Object.parse (/root/node/node_modules/jade/lib/parser.js:114:25)
+    at parse (/root/node/node_modules/jade/lib/jade.js:171:62)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:218:7)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+
+Error: /root/node/whistle/views/form.jade:36
+    34| //          | Login or Register to personalise!
+    35| 
+  > 36|     // end of left column
+    37|     // right column
+    38|     div#rh-col
+    39|       div.lh-block
+
+unexpected token "indent"
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:185:15)
+    at Object.parse (/root/node/node_modules/jade/lib/parser.js:114:25)
+    at parse (/root/node/node_modules/jade/lib/jade.js:171:62)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:218:7)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+
+Error: /root/node/whistle/views/form.jade:36
+    34| //          | Login or Register to personalise!
+    35| 
+  > 36|     // end of left column
+    37|     // right column
+    38|     div#rh-col
+    39|       div.lh-block
+
+unexpected token "indent"
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:185:15)
+    at Object.parse (/root/node/node_modules/jade/lib/parser.js:114:25)
+    at parse (/root/node/node_modules/jade/lib/jade.js:171:62)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:218:7)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+
+ReferenceError: /root/node/whistle/views/form.jade:33
+    31|         h4(align="center")
+    32|           | Log in / Register
+  > 33|         p#login!= login
+    34|         p.small
+    35|           | Login or Register to personalise!
+    36| 
+
+login is not defined
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
+
+30 May 18:04:27 - [nodemon] restarting due to changes...
+30 May 18:04:27 - [nodemon] ./app.js
+
+
+30 May 18:04:27 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+ReferenceError: Jade:3
+    1| h1= title
+    2| p Welcome to #{title}
+  > 3| !{form}
+
+form is not defined
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
+    at Router._dispatch (/root/node/node_modules/express/lib/router/index.js:255:4)
+    at Object.handle (/root/node/node_modules/express/lib/router/index.js:45:10)
+
+30 May 18:08:22 - [nodemon] restarting due to changes...
+30 May 18:08:22 - [nodemon] ./app.js
+
+
+30 May 18:08:22 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 18:08:23 - [nodemon] restarting due to changes...
+30 May 18:08:23 - [nodemon] ./app.js
+
+
+30 May 18:08:23 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+30 May 18:23:23 - [nodemon] restarting due to changes...
+30 May 18:23:23 - [nodemon] ./app.js
+
+
+30 May 18:23:23 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+SyntaxError: Unexpected identifier
+    at Object.Function (unknown source)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:224:10)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+
+Error: /root/node/whistle/views/form.jade:36
+    34|           p#login!= login
+    35| //          input(type='submit' value='login')
+  > 36|         p.small
+    37|           | Login or Register to personalise!
+    38| 
+    39|     // end of left column
+
+unexpected token "indent"
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:185:15)
+    at Object.parse (/root/node/node_modules/jade/lib/parser.js:114:25)
+    at parse (/root/node/node_modules/jade/lib/jade.js:171:62)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:218:7)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:57:7)
+
