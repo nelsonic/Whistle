@@ -27,6 +27,9 @@ app.configure('production', function(){
   app.use(express.errorHandler()); 
 });
 
+// Site Configuration:
+var sitename = ' - Whistle.co.uk';
+
 // Form:
 
 var forms = require('forms'),
@@ -47,7 +50,7 @@ var reg_form = forms.create({
 
 app.get('/test', function (req, res) {
   res.render('form', {
-  	title: 'Welcome Test!!',
+  	title: 'Welcome Test!!' +sitename,
   	form: reg_form.toHTML()
   });
 //  res.writeHead(200, {'Content-Type': 'text/plain'});
@@ -58,7 +61,7 @@ app.get('/test', function (req, res) {
 
 app.get('/', function(req, res){
   res.render('index', {
-    title: 'Express'
+    title: 'Express'  +sitename
   });
 });
 
