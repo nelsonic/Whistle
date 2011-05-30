@@ -1,7 +1,19 @@
-We are moving our site from Drupal (PHP/MySQL/Apache) to NodeJS+ Express/Connect/MongoDB
 
-I'm using GitHub as our code repo to simplify transfering work from development to production servers.
+------------------------------------------------------------------------------------------------
+
+I decided to move the our site from Drupal (PHP/MySQL/Apache) to NodeJS+ Express/Connect/MongoDB.
+Partly because its 'The New-New-Thing' but mostly just to make a clean break from the past mess!
+
+I'm using GitHub as our code repo to simplify transfering work from dev to pro servers.
 The downside is other people can see all our bugs.
 The upside   is other people can see all our bugs... :-)
 
-Hopefully it will make asking questions on Stack/Git
+Hopefully it will make asking questions on Stack/GitHub easier as 
+we can just point to the exact file/LOC.
+
+Showing all the code as I write it means people can see how the app progresses 
+and how everything fits together.
+And if anyone wants to complain/suggest/contribute they can check out the existing code, 
+load the dummy data and try to do it better! :-)
+
+Lets get started.
