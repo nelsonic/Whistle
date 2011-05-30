@@ -1,0 +1,192 @@
+/* the beauty of using stylus is variables! */
+WDG = #73953C /* Whislte Light Green */
+WLG = #98C44E /* Whislte Dark Green */
+
+/*** build the gradient as a mixin - see: http://learnboost.github.com/stylus/docs/mixins.html ***/
+whistle_gradient()
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.45, WDG), color-stop(0.94, WLG)); 
+  background-image: -moz-linear-gradient(center bottom, WDG 45%, WLG 94%);
+
+border-radius(n)
+  -webkit-border-radius n
+  -moz-border-radius n
+  border-radius n
+
+
+whistle-box-shaddow()
+  -moz-box-shadow: 1px 2px 5px #888;
+  -webkit-box-shadow: 1px 2px 5px#888;
+  box-shadow: 1px 2px 5px #888;
+
+body
+  padding 0
+  font .9em "Lucida Grande", Helvetica, Arial, sans-serif
+a
+  color #00B7FF
+
+h1
+  color BLUE
+  text-transform uppercase
+
+body
+  margin: 0;
+  padding:0;
+  color: #333333;
+
+.small
+  font-size .9em
+
+#hdr
+  height:40px; 
+  /* border-bottom:1px solid #000000; */
+  width:100%; 
+  color white 
+  margin:0;
+  margn-left -5px  
+  whistle_gradient()
+
+
+ /* top-navigation */
+ 
+ul#top-nav
+  margin 0px 0px 0px 240px 
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:33px;
+
+ul#top-nav li
+  margin 8px 30px 0px 0px
+  display:block;
+  float:left;
+  padding:0;
+  
+ul#top-nav li a
+  color white
+  text-decoration none
+  font-size 16px
+  
+ul#top-nav li a:hover
+  color white
+  padding-bottom 2px
+  border-bottom 2px solid white
+
+ /* Left Column */
+
+#lh-col
+  position:absolute;
+  top:50px;
+  left:0;
+  width:240px;
+  /* background:#c0c0c0; */
+  color: #333333;
+  margin 0px 0px 0px 5px;
+
+.lh-block h4
+  height 20px
+  whistle_gradient()
+  color white
+  border-radius(7px 7px 0px 0px )
+
+.lh-block
+  border 1px solid #888
+  border-radius(8px 8px 0px 0px )
+  whistle-box-shaddow()
+
+.post-shadow
+  background: url("http://static.tumblr.com/njty47g/yu0leufgq/post_shadow.png") no-repeat scroll left top transparent;
+  bottom: -10px;
+  display: block;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  width: 240px;
+
+
+ /* Right Column */
+
+#rh-col
+  position:absolute;
+  top:50px;
+  right:0;
+  width 300px
+  max-width 300px
+  color: #333333;
+  margin 0px 5px 0px 3px;
+  z-index: 2;
+  background-color white
+
+#c-block
+  width:100%;
+  z-index: 2;
+  background:#c0c0c0;
+  color: #333333;
+  height:100%;
+
+#c-col
+  margin:-8px 305px 0 245px;
+  position:relative;
+  background:#ffffff;
+  color: #333333;
+  border: solid #000000;
+  border-width:0 0px;
+  min-width 260px
+
+/* Footer */
+
+#ftr
+  width:97.5%;
+  margin-left 1%
+  height:30px;
+  border: solid 1px WDG 
+  border-width:1px 0;
+  background:#eeeeee;
+  color white
+  border-radius(7px 7px 7px 7px )
+  whistle_gradient()
+  whistle-box-shaddow()
+
+ /* ftr-nav */
+ 
+ul#ftr-nav
+  width: 40%
+  float left
+  margin 6px auto
+  list-style-type:none;
+  width:auto;
+  position:relative;
+  display:block;
+  height:33px;
+
+ul#ftr-nav li
+  margin 0px 20px 0px 0px
+  display:block;
+  float:left;
+  padding:0;
+  
+ul#ftr-nav li a
+  font-size 12px
+  color white
+  text-decoration none
+  
+ul#ftr-nav li a:hover
+  color white
+  padding-bottom 2px
+  border-bottom 1px solid white
+
+ul#ftr-nav
+
+.center
+  align center
+
+p
+  padding: 0 15px;
+
+h4, h3
+  margin:0;
+  padding: 5px 0;
+
+p:first-letter
+  font-size: 120%;
+  font-weight: bold;
