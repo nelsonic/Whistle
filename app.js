@@ -66,10 +66,10 @@ app.get('/test', function (req, res) {
 //  // res.end('Whistle NODEJS Test Server :-)\n');
 });
 
-app.get('/login', function (req, res) {
+app.post('/login', function (req, res) {
   res.render('form', {
   	title: 'Thanks for Loggin In !!' +sitename,
-  	login: login_form.toHTML()
+  	login_form: login_form.toHTML()
   });
 //  res.writeHead(200, {'Content-Type': 'text/plain'});
 //  res.end(reg_form.toHTML());

@@ -52,9 +52,10 @@ ul#top-nav li a:hover {
 }
 input {
   height: 30px;
-  width: 150px;
+  width: 170px;
   float: right;
   margin-right: 5px;
+  font-size: 1em;
 }
 .btn {
   margin-left: 1%;
@@ -63,7 +64,7 @@ input {
   border-width: 1px 0;
   background: #eee;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.1em;
   -webkit-border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   border-radius: 7px 7px 7px 7px;
@@ -95,6 +96,7 @@ input {
   border-radius: 7px 7px 0px 0px;
 }
 .lh-block {
+  font-size: 1.2em;
   border: 1px solid #888;
   -webkit-border-radius: 8px 8px 0px 0px;
   -moz-border-radius: 8px 8px 0px 0px;
@@ -103,6 +105,7 @@ input {
   -webkit-box-shadow: 1px 2px 5px #888;
   box-shadow: 1px 2px 5px #888;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .post-shadow {
   background: url("http://static.tumblr.com/njty47g/yu0leufgq/post_shadow.png") no-repeat scroll left top transparent;

@@ -29,18 +29,16 @@ html(lang="en")
     div#lh-col
       div.lh-block
         h4(align="center") Log in / Register
+        p.small Login or Register to personalise!
         form#loginform(action='/login', method='POST', enctype='multipart/form-data')
           p#login!= login_form
           input.btn#login_btn(type='submit', value='Login')
-        p.small Login or Register to personalise!
       - if (typeof(reg_form) !== 'undefined') 
         div.lh-block
           h4(align='center') Register
           form#loginform(action='/register', method='POST', enctype='multipart/form-data')
             p#login!= reg_form
             input.btn#login_btn(type='submit', value='Register')
-          p.small Login or Register to personalise!
-     
 
     // end of left column
     // right column
