@@ -1,8 +1,8 @@
 
 ------------------------------------------------------------------------------------------------
 
-I decided to move the the site from Drupal (PHP/MySQL/Apache) to NodeJS+ Express/Connect/MongoDB.
-Partly because its 'The New-New-Thing' but mostly just to make a clean break from the past mess!
+I decided to move the Whistle site from Drupal (PHP/MySQL/Apache) to NodeJS+ Connect/MongoDB
+Partly because its 'The New-New-Thing' but mostly just to make a clean break from the past (mess)!
 
 I'm using GitHub as our code repo to simplify transfering work from dev to prod servers.
 This ticks several boxes:
