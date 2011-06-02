@@ -20,7 +20,7 @@ html(lang="en")
       p#body!= body
       p(lang="ga")
         a(href="http://github.com/visionmedia") Whistle running Jade/Stylus 
-        |  Ocus adfeta don mac sin scéla na maceáem &amp; na maccraide i n-Emain, &amp; radis in mac bec ria mathair ar co n-digsed dá chluchi do chluchemaig na Emna. Romoch duitsiu sain a meic bic, ar a mathair, co n-deoch anruth do anrothaib. Ulad lett no choimthecht ecin do chaimthechtaib Conchobair, do chor th' aesma &amp; t'imdegla for in maccraid. Cían lim-sa di sodain a mathair, ar in mac bec, &amp; ni biu-sa oca idnaide acht tecoisc-siu dam-sa cia airm itá Emain. Is cían uait, ar a mathair, airm in-das-fil. Sliab Fúait etrut &amp; Emain. Dobér-sa ardmes furri amne, ar esium
+        |  Ocus adfeta don mac sin scéla na maceáem &amp;
 
     // end of center column
     // end c-block
@@ -28,12 +28,19 @@ html(lang="en")
     // left column
     div#lh-col
       div.lh-block
-        h4(align="center")
-          | Log in / Register
-        form#loginform(action='/photos', method='POST', enctype='multipart/form-data')
-          p#login!= login
-          input#btn(type='submit', value='login')
+        h4(align="center") Log in / Register
+        form#loginform(action='/login', method='POST', enctype='multipart/form-data')
+          p#login!= login_form
+          input.btn#login_btn(type='submit', value='Login')
         p.small Login or Register to personalise!
+      - if (typeof(reg_form) !== 'undefined') 
+        div.lh-block
+          h4(align='center') Register
+          form#loginform(action='/register', method='POST', enctype='multipart/form-data')
+            p#login!= reg_form
+            input.btn#login_btn(type='submit', value='Register')
+          p.small Login or Register to personalise!
+     
 
     // end of left column
     // right column

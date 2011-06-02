@@ -221,3 +221,45 @@ unexpected token "indent"
     at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
     at Router.<anonymous> (/root/node/whistle/app.js:57:7)
 
+31 May 15:48:00 - [nodemon] restarting due to changes...
+31 May 15:48:00 - [nodemon] ./app.js
+
+
+31 May 15:48:00 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 15:57:23 - [nodemon] restarting due to changes...
+31 May 15:57:23 - [nodemon] ./app.js
+
+
+31 May 15:57:23 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 15:57:40 - [nodemon] restarting due to changes...
+31 May 15:57:40 - [nodemon] ./app.js
+
+
+31 May 15:57:40 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 15:59:28 - [nodemon] restarting due to changes...
+31 May 15:59:28 - [nodemon] ./app.js
+
+
+31 May 15:59:28 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 16:05:57 - [nodemon] restarting due to changes...
+31 May 16:05:57 - [nodemon] ./app.js
+
+
+31 May 16:05:57 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 16:06:26 - [nodemon] restarting due to changes...
+31 May 16:06:26 - [nodemon] ./app.js
+
+
+31 May 16:06:26 - [32m[nodemon] starting node[0m
+Express server listening on port 80
+31 May 16:06:44 - [nodemon] restarting due to changes...
+31 May 16:06:44 - [nodemon] ./app.js
+
+
+31 May 16:06:44 - [32m[nodemon] starting node[0m
+Express server listening on port 80

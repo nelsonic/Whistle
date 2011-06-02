@@ -1,12 +1,12 @@
 
 ------------------------------------------------------------------------------------------------
 
-I decided to move the our site from Drupal (PHP/MySQL/Apache) to NodeJS+ Express/Connect/MongoDB.
+I decided to move the the site from Drupal (PHP/MySQL/Apache) to NodeJS+ Express/Connect/MongoDB.
 Partly because its 'The New-New-Thing' but mostly just to make a clean break from the past mess!
 
 I'm using GitHub as our code repo to simplify transfering work from dev to prod servers.
 This ticks several boxes:
-[x] Code is stored in a Version Control System (and always backed up)
+[x] Code is stored in a Version Control System (and remotely backed up)
 [x] Changes can be easily/rapidly tested/deployed (and rolled back)
 [x] Code is Open Source by Default (rather than a PR/Afterthought)
 [x] Our Pipeline and Issue tracking is Open & Transparent

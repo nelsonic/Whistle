@@ -3,7 +3,8 @@
  * Module dependencies.
  */
 
-var express = require('express');
+var express = require('express'),
+    formidable = require('formidable');
 
 var app = module.exports = express.createServer();
 
@@ -50,12 +51,24 @@ var login_form = forms.create({
     email: fields.email({required: true}),
     password: fields.password({required: true})
     });
+    
+var login_form_method = 
 
-// Routes
+// Rou
 
 app.get('/test', function (req, res) {
   res.render('form', {
   	title: 'Welcome Test!!' +sitename,
+  	login_form: login_form.toHTML()
+  });
+//  res.writeHead(200, {'Content-Type': 'text/plain'});
+//  res.end(reg_form.toHTML());
+//  // res.end('Whistle NODEJS Test Server :-)\n');
+});
+
+app.get('/login', function (req, res) {
+  res.render('form', {
+  	title: 'Thanks for Loggin In !!' +sitename,
   	login: login_form.toHTML()
   });
 //  res.writeHead(200, {'Content-Type': 'text/plain'});
@@ -67,8 +80,8 @@ app.get('/test', function (req, res) {
 app.get('/', function(req, res){
   res.render('index', {
     title: 'Express'  +sitename,
-    login: reg_form.toHTML()
-    
+    login_form: login_form.toHTML(),
+    reg_form: reg_form.toHTML()
   });
 });
 

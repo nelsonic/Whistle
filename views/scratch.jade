@@ -1,0 +1,19 @@
+    // left column
+    div#lh-col
+    - if (typeof(login_form) == 'undefined')
+       div.lh-block
+          h4(align="center")
+            | Log in / Register
+          form#loginform(action='/login', method='POST', enctype='multipart/form-data')
+            p#login!= login_form
+            input#btn(type='submit', value='login')
+          p.small Login or Register to personalise!
+    - else
+        div.lh-block
+          h4(align="center")
+            | Log in / Register
+          form#loginform(action='/login', method='POST', enctype='multipart/form-data')
+            p#login!= login_form
+            input#btn(type='submit', value='login')
+          p.small Login or Register to personalise!
+    // end of left column

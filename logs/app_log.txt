@@ -1,54 +1,146 @@
-28 May 06:05:29 - [nodemon] v0.5.2
-28 May 06:05:29 - [32m[nodemon] watching: /root/node/whistle[0m
-28 May 06:05:29 - [nodemon] running app.js
-28 May 06:05:29 - [32m[nodemon] starting node[0m
+1 Jun 18:51:49 - [nodemon] v0.5.2
+1 Jun 18:51:49 - [32m[nodemon] watching: /root[0m
+1 Jun 18:51:49 - [nodemon] running app.js
+1 Jun 18:51:49 - [32m[nodemon] starting node[0m
 Express server listening on port 80
-30 May 09:57:33 - [nodemon] restarting due to changes...
-30 May 09:57:33 - [nodemon] ./app.js
+Error: /root/node/whistle/views/index.jade:69
+    67|           a(href="#") Sitemap
+    68|       // center column
+  > 69| 
 
+unknown ast filter "conditionals:"
+    at Object.visitFilter (/root/node/node_modules/jade/lib/compiler.js:228:15)
+    at Object.visitNode (/root/node/node_modules/jade/lib/compiler.js:139:31)
+    at Object.visit (/root/node/node_modules/jade/lib/compiler.js:126:17)
+    at Object.visitBlock (/root/node/node_modules/jade/lib/compiler.js:152:12)
+    at Object.visitNode (/root/node/node_modules/jade/lib/compiler.js:139:31)
+    at Object.visit (/root/node/node_modules/jade/lib/compiler.js:126:17)
+    at Object.visitTag (/root/node/node_modules/jade/lib/compiler.js:210:12)
+    at Object.visitNode (/root/node/node_modules/jade/lib/compiler.js:139:31)
+    at Object.visit (/root/node/node_modules/jade/lib/compiler.js:126:17)
+    at Object.visitBlock (/root/node/node_modules/jade/lib/compiler.js:152:12)
 
-30 May 09:57:33 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 09:57:40 - [nodemon] restarting due to changes...
-30 May 09:57:40 - [nodemon] ./app.js
+ReferenceError: /root/node/whistle/views/index.jade:39
+    37|           p.small Login or Register to personalise!
+    38|       else
+  > 39|         p User #{name} is a guest
+    40| 
+    41|     // end of left column
+    42|     // right column
 
+name is not defined
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
 
-30 May 09:57:40 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:41:00 - [nodemon] restarting due to changes...
-30 May 10:41:00 - [nodemon] ./app.js
+ReferenceError: /root/node/whistle/views/index.jade:39
+    37|           p.small Login or Register to personalise!
+    38|       else
+  > 39|         p User #{name} is a guest
+    40| 
+    41|     // end of left column
+    42|     // right column
 
+name is not defined
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
 
-30 May 10:41:00 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:41:15 - [nodemon] restarting due to changes...
-30 May 10:41:15 - [nodemon] ./app.js
+ReferenceError: /root/node/whistle/views/index.jade:39
+    37|           p.small Login or Register to personalise!
+    38|       else
+  > 39|         p User #{name} is a guest
+    40| 
+    41|     // end of left column
+    42|     // right column
 
+name is not defined
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
 
-30 May 10:41:15 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:41:32 - [nodemon] restarting due to changes...
-30 May 10:41:32 - [nodemon] ./app.js
+ReferenceError: /root/node/whistle/views/index.jade:30
+    28|     // left column
+    29|     div#lh-col
+  > 30|     - if (typeof(login_form) = 'undefined')
+    31|        div.lh-block
+    32|           h4(align="center")
+    33|             | Log in / Register
 
+Invalid left-hand side in assignment
+    at Object.anonymous (eval at <anonymous> (/root/node/node_modules/jade/lib/jade.js:224:10))
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:422:21)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
+    at param (/root/node/node_modules/express/lib/router/index.js:227:11)
+    at pass (/root/node/node_modules/express/lib/router/index.js:232:6)
 
-30 May 10:41:32 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:41:50 - [nodemon] restarting due to changes...
-30 May 10:41:50 - [nodemon] ./app.js
+Error: /root/node/whistle/views/index.jade:47
+    45| 
+    46|     // end of left column
+  > 47|     // right column
+    48|     div#rh-col
+    49|       div.lh-block
+    50|         h4(align="center")
 
+unexpected token "indent"
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:185:15)
+    at Object.parseBlock (/root/node/node_modules/jade/lib/parser.js:335:25)
+    at Object.parseTag (/root/node/node_modules/jade/lib/parser.js:425:26)
+    at Object.parseExpr (/root/node/node_modules/jade/lib/parser.js:163:21)
+    at Object.parse (/root/node/node_modules/jade/lib/parser.js:114:25)
+    at parse (/root/node/node_modules/jade/lib/jade.js:171:62)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:218:7)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
 
-30 May 10:41:50 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:54:17 - [nodemon] restarting due to changes...
-30 May 10:54:17 - [nodemon] ./app.js
+SyntaxError: Unexpected token else
+    at Object.Function (unknown source)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:224:10)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
 
+SyntaxError: Unexpected token else
+    at Object.Function (unknown source)
+    at Object.compile (/root/node/node_modules/jade/lib/jade.js:224:10)
+    at Function.compile (/root/node/node_modules/express/lib/view.js:64:33)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:413:18)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at ServerResponse._render (/root/node/node_modules/express/lib/view.js:429:10)
+    at ServerResponse.render (/root/node/node_modules/express/lib/view.js:313:17)
+    at Router.<anonymous> (/root/node/whistle/app.js:81:7)
+    at done (/root/node/node_modules/express/lib/router/index.js:250:22)
+    at middleware (/root/node/node_modules/express/lib/router/index.js:244:9)
 
-30 May 10:54:17 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 10:54:33 - [nodemon] restarting due to changes...
-30 May 10:54:33 - [nodemon] ./app.js
-
-
-30 May 10:54:33 - [32m[nodemon] starting node[0m
-Express server listening on port 80
-30 May 14:33:25 - [1;31m[nodemon] app crashed - waiting for file change before starting...[0m
