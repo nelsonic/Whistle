@@ -2,8 +2,7 @@
 This is where we write all the learns for the NodeJS Journey. :-)
 This document is tagged in [markdown](http://en.wikipedia.org/wiki/Markdown) best viewed in a suitable interpreter.
 
-Beyond the standard stuff we learn from the basic tutorials on the web, we need to *grok*
-the connect modules we are using in order to know what our features/limitations are.
+Beyond the standard stuff we learn from the basic tutorials on the web, we need to [*grok*](http://en.wikipedia.org/wiki/Grok) the connect modules we are using in order to know what our features/limitations are.
 ---
 
 ##Things to Learn
